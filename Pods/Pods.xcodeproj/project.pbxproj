@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01232CA55C0C6EB326E943180EB6FFF2 /* OpenShare-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61695347933D30F74E2326DA8857D175 /* OpenShare-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		089BB15C2B07B51487CEE53DBC431220 /* Pods-BDShareDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12AE8FE57EAAA87CDD24BAFA3A5BB3E3 /* Pods-BDShareDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2160D63F4A008EA553C27019046E40FB /* OpenShare+Weixin.h in Headers */ = {isa = PBXBuildFile; fileRef = 61915B67AB9A351F3871CBA3DFC762B4 /* OpenShare+Weixin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		295FD45E53D2BE6B8D80A19A42CC8D80 /* OpenShare+Renren.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CBFE3B91AE3A5F8A16F1DE5A1F05F31 /* OpenShare+Renren.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32137E5623EB93B45AB1450F43676A1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		333BAAF54E3C6E1DBD825B0B66D284CC /* OpenShare+QQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BEC6D624C4266008E8B1404AAED30C /* OpenShare+QQ.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3DDFDC78F52107FC7FE738587D1DC00C /* OpenShare+Alipay.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C90B108A3CA71D561DF811E6F7806EA /* OpenShare+Alipay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4654ABF8AE0C4C7D8AD4BD46C5753141 /* OpenShare.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C2DF943A37838FE9B69B0EBDABE16 /* OpenShare.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6BA93D0C75956BF5F307FF31003802F9 /* OpenShare+Weibo.m in Sources */ = {isa = PBXBuildFile; fileRef = F10317E957153F994DFF0E113668E616 /* OpenShare+Weibo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		77F729E9AA65EF35D02759331BE7D571 /* Pods-BDShareDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 651F3AA59966CBE8E585C9359669FD73 /* Pods-BDShareDemo-dummy.m */; };
+		7C519FAF924DC128D8638C54CED76C1F /* OpenShare+Renren.m in Sources */ = {isa = PBXBuildFile; fileRef = 850633D7F4E122216EB2FAAC3C5D5F1F /* OpenShare+Renren.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A3084120A8FB02F17F73FDB45D8DBDEB /* OpenShareHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 397AA1966623F581902CD18DD975CBE8 /* OpenShareHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A507DDE8903F0F34AE8FFCD6F584C31B /* OpenShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D91B49E2F829F20C7AF78559CB6C78 /* OpenShare-dummy.m */; };
+		B87159BEC374735B81BA94A8D6EE7870 /* OpenShare+Weibo.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDF917E33E05A3CAC74E806880CF67F /* OpenShare+Weibo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA430C7F8AE5D3EB454E2F72673F098B /* OpenShare+Weixin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9A1367A78DBA693B6A3EAFAC2697A /* OpenShare+Weixin.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BE92BF5E84E66B4515B3248931915797 /* OpenShare+QQ.h in Headers */ = {isa = PBXBuildFile; fileRef = F2A62176C5A9C6A782E3F6FC35A2E1A5 /* OpenShare+QQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C523456294469695686E7BA08BED330C /* OpenShare+Alipay.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED0B4C35416FB6E646441AA96192CB /* OpenShare+Alipay.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D4C5E63CD01D1A6E2DA9F9A0B269FDB2 /* OpenShare.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD60116CC5DF748DFF601934DCD66D1 /* OpenShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2585C4699677AD6214E794A970A29BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A076BD5C791A305847140FEF74CA4609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		F97CEAC488A0E19E6AF0356C4B4508FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFED28BF4D4BEB9A309CA3520AAE776F;
+			remoteInfo = OpenShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CDA58145D8A5834AD619F93DC403181 /* Pods-BDShareDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BDShareDemo-frameworks.sh"; sourceTree = "<group>"; };
+		0D3E0E77F623E87A505AE98B0F417EF6 /* OpenShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenShare.framework; path = OpenShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12AE8FE57EAAA87CDD24BAFA3A5BB3E3 /* Pods-BDShareDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BDShareDemo-umbrella.h"; sourceTree = "<group>"; };
+		1CF817589410A4F708C46A06CFDDBDC5 /* Pods-BDShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2CBFE3B91AE3A5F8A16F1DE5A1F05F31 /* OpenShare+Renren.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OpenShare+Renren.h"; path = "openshare/OpenShare+Renren.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33A145A8F5D590B0E794333D815B6F98 /* OpenShare-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OpenShare-Info.plist"; sourceTree = "<group>"; };
+		38BEC6D624C4266008E8B1404AAED30C /* OpenShare+QQ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OpenShare+QQ.m"; path = "openshare/OpenShare+QQ.m"; sourceTree = "<group>"; };
+		397AA1966623F581902CD18DD975CBE8 /* OpenShareHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenShareHeader.h; path = openshare/OpenShareHeader.h; sourceTree = "<group>"; };
+		5C3A17E6ED8D58502FFFB83B2E1743D6 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.6.1/WXApi.h; sourceTree = "<group>"; };
+		5C90B108A3CA71D561DF811E6F7806EA /* OpenShare+Alipay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OpenShare+Alipay.h"; path = "openshare/OpenShare+Alipay.h"; sourceTree = "<group>"; };
+		5CA9A1367A78DBA693B6A3EAFAC2697A /* OpenShare+Weixin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OpenShare+Weixin.m"; path = "openshare/OpenShare+Weixin.m"; sourceTree = "<group>"; };
+		61695347933D30F74E2326DA8857D175 /* OpenShare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenShare-umbrella.h"; sourceTree = "<group>"; };
+		61915B67AB9A351F3871CBA3DFC762B4 /* OpenShare+Weixin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OpenShare+Weixin.h"; path = "openshare/OpenShare+Weixin.h"; sourceTree = "<group>"; };
+		64C6B07FC311F87A1221234A99A8F2E9 /* Pods_BDShareDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BDShareDemo.framework; path = "Pods-BDShareDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		650D3FDEE97D3CCBBD10285F0BDB41D5 /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
+		651F3AA59966CBE8E585C9359669FD73 /* Pods-BDShareDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BDShareDemo-dummy.m"; sourceTree = "<group>"; };
+		68C04540229640E2399A235D64F36031 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.6.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		6F8F1B4D92BF8E0576D430A8583E0A29 /* OpenShare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpenShare.modulemap; sourceTree = "<group>"; };
+		6FC575A5770E9CB3BD2D8D60FE3EE659 /* Pods-BDShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7A629AC278150404F0F52F3BBE00B640 /* OpenShare-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenShare-prefix.pch"; sourceTree = "<group>"; };
+		850633D7F4E122216EB2FAAC3C5D5F1F /* OpenShare+Renren.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OpenShare+Renren.m"; path = "openshare/OpenShare+Renren.m"; sourceTree = "<group>"; };
+		853EC43EE9BE541FDF0C08131AE69F57 /* OpenShare.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenShare.xcconfig; sourceTree = "<group>"; };
+		8722CE7A900D5C69C0273A6B0A4AA4E1 /* Pods-BDShareDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BDShareDemo.modulemap"; sourceTree = "<group>"; };
+		959BF8D205C648EA8EA9FBB5EA388F74 /* Pods-BDShareDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDShareDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		970A7D42DA3BAD5471D40344EE4893AF /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.6.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		9B11FD94162786EE5588E91333F25AE9 /* Pods-BDShareDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDShareDemo-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAD1847DAAEDDCDCDF840EEC5BD2A897 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.6.1/WXApiObject.h; sourceTree = "<group>"; };
+		B6D91B49E2F829F20C7AF78559CB6C78 /* OpenShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenShare-dummy.m"; sourceTree = "<group>"; };
+		B87C2DF943A37838FE9B69B0EBDABE16 /* OpenShare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OpenShare.m; path = openshare/OpenShare.m; sourceTree = "<group>"; };
+		BFD60116CC5DF748DFF601934DCD66D1 /* OpenShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenShare.h; path = openshare/OpenShare.h; sourceTree = "<group>"; };
+		E64A04D5B367D6A0F49988EDD794A1BB /* Pods-BDShareDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BDShareDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F10317E957153F994DFF0E113668E616 /* OpenShare+Weibo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OpenShare+Weibo.m"; path = "openshare/OpenShare+Weibo.m"; sourceTree = "<group>"; };
+		F2A62176C5A9C6A782E3F6FC35A2E1A5 /* OpenShare+QQ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OpenShare+QQ.h"; path = "openshare/OpenShare+QQ.h"; sourceTree = "<group>"; };
+		F5ED0B4C35416FB6E646441AA96192CB /* OpenShare+Alipay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OpenShare+Alipay.m"; path = "openshare/OpenShare+Alipay.m"; sourceTree = "<group>"; };
+		FEDF917E33E05A3CAC74E806880CF67F /* OpenShare+Weibo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OpenShare+Weibo.h"; path = "openshare/OpenShare+Weibo.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64465AC9F2E8727A26B2767E69511DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2585C4699677AD6214E794A970A29BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC510F06C89CD6DFC3444CABA36F1F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32137E5623EB93B45AB1450F43676A1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B7F6CB1491279C6B919E777235A368C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2258E50F21EEA2CE31DBC39920FBBBDB /* Pods-BDShareDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2258E50F21EEA2CE31DBC39920FBBBDB /* Pods-BDShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8722CE7A900D5C69C0273A6B0A4AA4E1 /* Pods-BDShareDemo.modulemap */,
+				E64A04D5B367D6A0F49988EDD794A1BB /* Pods-BDShareDemo-acknowledgements.markdown */,
+				959BF8D205C648EA8EA9FBB5EA388F74 /* Pods-BDShareDemo-acknowledgements.plist */,
+				651F3AA59966CBE8E585C9359669FD73 /* Pods-BDShareDemo-dummy.m */,
+				0CDA58145D8A5834AD619F93DC403181 /* Pods-BDShareDemo-frameworks.sh */,
+				9B11FD94162786EE5588E91333F25AE9 /* Pods-BDShareDemo-Info.plist */,
+				12AE8FE57EAAA87CDD24BAFA3A5BB3E3 /* Pods-BDShareDemo-umbrella.h */,
+				6FC575A5770E9CB3BD2D8D60FE3EE659 /* Pods-BDShareDemo.debug.xcconfig */,
+				1CF817589410A4F708C46A06CFDDBDC5 /* Pods-BDShareDemo.release.xcconfig */,
+			);
+			name = "Pods-BDShareDemo";
+			path = "Target Support Files/Pods-BDShareDemo";
+			sourceTree = "<group>";
+		};
+		27A80CFA5E09166508C7BEA6AC52E696 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				68C04540229640E2399A235D64F36031 /* WechatAuthSDK.h */,
+				5C3A17E6ED8D58502FFFB83B2E1743D6 /* WXApi.h */,
+				AAD1847DAAEDDCDCDF840EEC5BD2A897 /* WXApiObject.h */,
+				52A8E174AE2563E8CB91BCEB468FB60B /* Frameworks */,
+				FB47D15F440AAB99118095A011AD7919 /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		52A8E174AE2563E8CB91BCEB468FB60B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				970A7D42DA3BAD5471D40344EE4893AF /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CDA2EA1CF7BF03DC688AE20E8C79321 /* OpenShare */ = {
+			isa = PBXGroup;
+			children = (
+				BFD60116CC5DF748DFF601934DCD66D1 /* OpenShare.h */,
+				B87C2DF943A37838FE9B69B0EBDABE16 /* OpenShare.m */,
+				5C90B108A3CA71D561DF811E6F7806EA /* OpenShare+Alipay.h */,
+				F5ED0B4C35416FB6E646441AA96192CB /* OpenShare+Alipay.m */,
+				F2A62176C5A9C6A782E3F6FC35A2E1A5 /* OpenShare+QQ.h */,
+				38BEC6D624C4266008E8B1404AAED30C /* OpenShare+QQ.m */,
+				2CBFE3B91AE3A5F8A16F1DE5A1F05F31 /* OpenShare+Renren.h */,
+				850633D7F4E122216EB2FAAC3C5D5F1F /* OpenShare+Renren.m */,
+				FEDF917E33E05A3CAC74E806880CF67F /* OpenShare+Weibo.h */,
+				F10317E957153F994DFF0E113668E616 /* OpenShare+Weibo.m */,
+				61915B67AB9A351F3871CBA3DFC762B4 /* OpenShare+Weixin.h */,
+				5CA9A1367A78DBA693B6A3EAFAC2697A /* OpenShare+Weixin.m */,
+				397AA1966623F581902CD18DD975CBE8 /* OpenShareHeader.h */,
+				C659E28A0FE8358F6F9EA6E522858E86 /* Support Files */,
+			);
+			name = OpenShare;
+			path = OpenShare;
+			sourceTree = "<group>";
+		};
+		6E6C0137BC89B8A79F5C6ACACD6DFFA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D3E0E77F623E87A505AE98B0F417EF6 /* OpenShare.framework */,
+				64C6B07FC311F87A1221234A99A8F2E9 /* Pods_BDShareDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C659E28A0FE8358F6F9EA6E522858E86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F8F1B4D92BF8E0576D430A8583E0A29 /* OpenShare.modulemap */,
+				853EC43EE9BE541FDF0C08131AE69F57 /* OpenShare.xcconfig */,
+				B6D91B49E2F829F20C7AF78559CB6C78 /* OpenShare-dummy.m */,
+				33A145A8F5D590B0E794333D815B6F98 /* OpenShare-Info.plist */,
+				7A629AC278150404F0F52F3BBE00B640 /* OpenShare-prefix.pch */,
+				61695347933D30F74E2326DA8857D175 /* OpenShare-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenShare";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DCE9D772E94B52BB0EEC627AE9F981E7 /* Pods */,
+				6E6C0137BC89B8A79F5C6ACACD6DFFA7 /* Products */,
+				0B7F6CB1491279C6B919E777235A368C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCE9D772E94B52BB0EEC627AE9F981E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CDA2EA1CF7BF03DC688AE20E8C79321 /* OpenShare */,
+				27A80CFA5E09166508C7BEA6AC52E696 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB47D15F440AAB99118095A011AD7919 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				650D3FDEE97D3CCBBD10285F0BDB41D5 /* WechatOpenSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C99E4792DE988B09E9946E991F1F57D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDFDC78F52107FC7FE738587D1DC00C /* OpenShare+Alipay.h in Headers */,
+				BE92BF5E84E66B4515B3248931915797 /* OpenShare+QQ.h in Headers */,
+				295FD45E53D2BE6B8D80A19A42CC8D80 /* OpenShare+Renren.h in Headers */,
+				B87159BEC374735B81BA94A8D6EE7870 /* OpenShare+Weibo.h in Headers */,
+				2160D63F4A008EA553C27019046E40FB /* OpenShare+Weixin.h in Headers */,
+				01232CA55C0C6EB326E943180EB6FFF2 /* OpenShare-umbrella.h in Headers */,
+				D4C5E63CD01D1A6E2DA9F9A0B269FDB2 /* OpenShare.h in Headers */,
+				A3084120A8FB02F17F73FDB45D8DBDEB /* OpenShareHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E4F108CF592827644536C6B4830B94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089BB15C2B07B51487CEE53DBC431220 /* Pods-BDShareDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FE9F3EED24DF23BE5597BC77F1CC047C /* Pods-BDShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61779B96CF997E940735E28CB9F5882 /* Build configuration list for PBXNativeTarget "Pods-BDShareDemo" */;
+			buildPhases = (
+				D8E4F108CF592827644536C6B4830B94 /* Headers */,
+				3EA97DA4C3596C2017056480C9552C3D /* Sources */,
+				FC510F06C89CD6DFC3444CABA36F1F6A /* Frameworks */,
+				4C74B91E111BBE430A46F13B93EBE2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B7F5637CB9CF705BB86F08C617B9046 /* PBXTargetDependency */,
+				8E3047A07386F561818666BC8C2FC25E /* PBXTargetDependency */,
+			);
+			name = "Pods-BDShareDemo";
+			productName = "Pods-BDShareDemo";
+			productReference = 64C6B07FC311F87A1221234A99A8F2E9 /* Pods_BDShareDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFED28BF4D4BEB9A309CA3520AAE776F /* OpenShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451790605A128E69BBF4252EB07F82B5 /* Build configuration list for PBXNativeTarget "OpenShare" */;
+			buildPhases = (
+				C99E4792DE988B09E9946E991F1F57D3 /* Headers */,
+				0AA59229387045681A2E3E95E5B48ABA /* Sources */,
+				64465AC9F2E8727A26B2767E69511DDA /* Frameworks */,
+				980BD75D6B2797BD3A6DF8FE85FA35C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenShare;
+			productName = OpenShare;
+			productReference = 0D3E0E77F623E87A505AE98B0F417EF6 /* OpenShare.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6E6C0137BC89B8A79F5C6ACACD6DFFA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFED28BF4D4BEB9A309CA3520AAE776F /* OpenShare */,
+				FE9F3EED24DF23BE5597BC77F1CC047C /* Pods-BDShareDemo */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C74B91E111BBE430A46F13B93EBE2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980BD75D6B2797BD3A6DF8FE85FA35C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AA59229387045681A2E3E95E5B48ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C523456294469695686E7BA08BED330C /* OpenShare+Alipay.m in Sources */,
+				333BAAF54E3C6E1DBD825B0B66D284CC /* OpenShare+QQ.m in Sources */,
+				7C519FAF924DC128D8638C54CED76C1F /* OpenShare+Renren.m in Sources */,
+				6BA93D0C75956BF5F307FF31003802F9 /* OpenShare+Weibo.m in Sources */,
+				BA430C7F8AE5D3EB454E2F72673F098B /* OpenShare+Weixin.m in Sources */,
+				A507DDE8903F0F34AE8FFCD6F584C31B /* OpenShare-dummy.m in Sources */,
+				4654ABF8AE0C4C7D8AD4BD46C5753141 /* OpenShare.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA97DA4C3596C2017056480C9552C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F729E9AA65EF35D02759331BE7D571 /* Pods-BDShareDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B7F5637CB9CF705BB86F08C617B9046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpenShare;
+			target = FFED28BF4D4BEB9A309CA3520AAE776F /* OpenShare */;
+			targetProxy = F97CEAC488A0E19E6AF0356C4B4508FE /* PBXContainerItemProxy */;
+		};
+		8E3047A07386F561818666BC8C2FC25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = A076BD5C791A305847140FEF74CA4609 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2592D70F4919E1A39690DAB86B593A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650D3FDEE97D3CCBBD10285F0BDB41D5 /* WechatOpenSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A18107AB87CC0EC61F1A64ACED7591C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 853EC43EE9BE541FDF0C08131AE69F57 /* OpenShare.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenShare/OpenShare-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenShare/OpenShare-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OpenShare/OpenShare.modulemap";
+				PRODUCT_MODULE_NAME = OpenShare;
+				PRODUCT_NAME = OpenShare;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6774F28FD1EDE95AD481A20B2215BB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650D3FDEE97D3CCBBD10285F0BDB41D5 /* WechatOpenSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E15EBB01F7EE7950B394484001DB7B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 853EC43EE9BE541FDF0C08131AE69F57 /* OpenShare.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenShare/OpenShare-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenShare/OpenShare-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OpenShare/OpenShare.modulemap";
+				PRODUCT_MODULE_NAME = OpenShare;
+				PRODUCT_NAME = OpenShare;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D4CC91BFB792122C1B013B05F354AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF817589410A4F708C46A06CFDDBDC5 /* Pods-BDShareDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BDShareDemo/Pods-BDShareDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BDShareDemo/Pods-BDShareDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1243AC3E1758FF5C860B244B929C872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC575A5770E9CB3BD2D8D60FE3EE659 /* Pods-BDShareDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BDShareDemo/Pods-BDShareDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BDShareDemo/Pods-BDShareDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		451790605A128E69BBF4252EB07F82B5 /* Build configuration list for PBXNativeTarget "OpenShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A18107AB87CC0EC61F1A64ACED7591C /* Debug */,
+				6E15EBB01F7EE7950B394484001DB7B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6774F28FD1EDE95AD481A20B2215BB5F /* Debug */,
+				2592D70F4919E1A39690DAB86B593A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61779B96CF997E940735E28CB9F5882 /* Build configuration list for PBXNativeTarget "Pods-BDShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1243AC3E1758FF5C860B244B929C872 /* Debug */,
+				7D4CC91BFB792122C1B013B05F354AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
