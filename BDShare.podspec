@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "BDShare"
-    s.version      = "0.0.1"
+    s.version      = "0.0.2"
     s.summary      = "social share for wechat.include payment and so on."
     s.description  = "social share for wechat.include payment and so on."
     s.homepage     = "https://github.com/reference"
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/reference/BDShareDemo.git", :tag => "#{s.version}" }
 
     s.frameworks = "UIKit", "Foundation"
+    s.library = "WechatOpenSDK"
     s.requires_arc = true
 
     s.source_files  =  "BDShareDemo/BDShare/BDShareHeader.h"
     s.public_header_files = "BDShareDemo/BDShare/BDShareHeader.h"
 
     s.dependency "OpenShare"
-    s.dependency "WechatOpenSDK"
 
     s.subspec "BDShare" do |ss|
         ss.source_files  = "BDShareDemo/BDShare/BDShare/*.{h,m}"
